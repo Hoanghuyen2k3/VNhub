@@ -14,13 +14,7 @@ function Card({place, index}) {
   return (
     
     <Tilt>
-      <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
         <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
           onClick={handleClick} 
           key={index}
           className="card-container"
@@ -30,9 +24,6 @@ function Card({place, index}) {
           <p>{place.description}</p>
 
         </div>
-
-      </motion.div>
-
     </Tilt>
     
   )

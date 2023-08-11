@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './components/home/Home';
 import './App.css';
+import EachFood from './components/food/EachFood';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -22,6 +23,8 @@ function App() {
       <Route path="foods" element={<Food />} />
       <Route path="attractions" element={<Attractions />} />
       <Route path="attractions/:index" element={<Place />} /> 
+      <Route path="foods/:index" element={<EachFood />} /> 
+
 
       
     </Route>))

@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { placesToVisit } from '../../data'
 import { useParams } from 'react-router-dom'
-import Wrapper from '../../hoc/Wrapper';
 import "./Place.scss"
 
 function Place() {
@@ -9,7 +8,7 @@ function Place() {
     console.log(params)
     const index = parseInt(params.index);
     const place = placesToVisit[index];
-    const [image, setImage] = useState();
+    const [image, setImage] = useState()
   return (
     <div className="place">
         <h1>{place.name}</h1>
@@ -40,7 +39,7 @@ function Place() {
                 <h2>Reviews</h2>
                 <form>
                     <input type="text" placeholder="Write your experiences..."/>
-                    <input  id="icon-button-file"
+                    <input  style={{ display: 'none' }} id="icon-button-file"
                 type="file" onChange={(e)=>{
                     const file = e.target.files[0];
                     file &&setImage(URL.createObjectURL(e.target.files[0]))}} />
@@ -54,4 +53,4 @@ function Place() {
   )
 }
 
-export default Wrapper(Place)
+export default Place
