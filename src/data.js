@@ -2,12 +2,14 @@ export const placesToVisit = [
   {
     name: "Hanoi",
     url: [
+      "https://www.willflyforfood.net/wp-content/uploads/2019/11/hanoi-travel-guide-cover.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/33/f7/12/caption.jpg",
-      "https://reviewvilla.vn/wp-content/uploads/2022/05/kinh-nghiem-du-lich-ha-noi-5-1024x577.jpg",
-      "https://www.willflyforfood.net/wp-content/uploads/2019/11/hanoi-travel-guide-cover.jpg"
+      "https://reviewvilla.vn/wp-content/uploads/2022/05/kinh-nghiem-du-lich-ha-noi-5-1024x577.jpg"
+      
 
     ],
-    moreInfo: `Vietnam's capital is the frenetic heartbeat of the nation and a place that befuddles travelers as much as it charms them.
+    moreInfo: `
+    Vietnam's capital is the frenetic heartbeat of the nation and a place that befuddles travelers as much as it charms them.
 
     The motorbike frenzy, pollution, and constant clamor of street vendors can get too much for some travelers, but if you want to dive into Vietnamese city life, Hanoi is the place to do it.
     
@@ -24,7 +26,8 @@ export const placesToVisit = [
       "https://owa.bestprice.vn/images/articles/uploads/tat-tan-tat-cac-cho-lon-o-thanh-pho-ho-chi-minh-ban-nhat-dinh-nen-ghe-toi-mot-lan-5f4e1c24576f7.jpg",
       "https://cdn.tuoitrethudo.com.vn/stores/news_dataimages/2022/112022/08/14/bien-doi-khi-hau20221108144834.jpg?rt=20221108144840"
     ],
-    moreInfo: `For big city fans, no visit to Vietnam is really complete without a visit to Ho Chi Minh City, the buzzing commercial hub of the country.
+    moreInfo: `
+    For big city fans, no visit to Vietnam is really complete without a visit to Ho Chi Minh City, the buzzing commercial hub of the country.
 
     The streets are an insane clog of motorbikes and cars, the restaurant and café scene is incredibly cosmopolitan, and the shopping is the best in the country.
     
@@ -49,7 +52,8 @@ export const placesToVisit = [
       "https://danangleisure.com/wp-content/uploads/2023/05/hoi-an-1680591517857660432696.jpeg",
       "https://www.onthegotours.com/blog/wp-content/uploads/2013/02/The-Japanese-Bridge-in-Hoi-An-Vietnam.jpg"
     ],
-    moreInfo: `Beautiful Hoi An is the most atmospheric city in Vietnam, with bags of surviving historic architecture.
+    moreInfo: `
+    Beautiful Hoi An is the most atmospheric city in Vietnam, with bags of surviving historic architecture.
 
     The old town quarter is a joy to explore, packed to the brim with well-preserved merchant houses that hark back to Hoi An's trading center heyday of the 15th century, when the town was a major meeting point for Japanese and Chinese merchants who flocked here for the local silks.
     
@@ -68,7 +72,8 @@ export const placesToVisit = [
       "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/9/14/1093152/Halongbay.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/17/2e/76/55/d-ng-phong-nha-la-danh.jpg"
     ],
-    moreInfo: `The karst seascape of Halong Bay is one of the best places to visit in the world for spellbinding sea views and is a UNESCO World Heritage Site.
+    moreInfo: `
+    The karst seascape of Halong Bay is one of the best places to visit in the world for spellbinding sea views and is a UNESCO World Heritage Site.
 
     Thousands of limestone islands sit within this bay in the Gulf of Tonkin, eroded into jagged pinnacles by wind and water action over millennia.
     
@@ -85,7 +90,8 @@ export const placesToVisit = [
       "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2020/01/Sapa-Valley-feature.jpg",
       "https://res.klook.com/image/upload/fl_lossy.progressive,w_800,c_fill,q_85/destination/gz7tgpplajttevacsz4v.jpg"
     ],
-    moreInfo: `The verdant rice field countryside surrounding Sapa, bordered by the jagged peaks of the Hoang Lien Mountains (often still known by their French colonial era name of the Tonkinese Alps), are home to Vietnam's most beautiful rural vistas.
+    moreInfo: `
+    The verdant rice field countryside surrounding Sapa, bordered by the jagged peaks of the Hoang Lien Mountains (often still known by their French colonial era name of the Tonkinese Alps), are home to Vietnam's most beautiful rural vistas.
 
     The deep valleys here are home to a diverse mix of the country's ethnic minorities, including the Hmong, Giay, and Red Dzao people, while the rippling hills are terraced with rice fields and overlooked by the country's tallest peak, Fansipan Mountain.
     
@@ -102,7 +108,8 @@ export const placesToVisit = [
       "https://content.r9cdn.net/rimg/dimg/3c/08/1a8e1f7d-city-46568-169828ca9a6.jpg?width=1366&height=768&xhint=1577&yhint=769&crop=true",
       "https://image.nhandan.vn/w800/Uploaded/2023/jaijae/2023_02_14/a2-6292.jpg"
     ],
-    moreInfo: `For sandy fun in Vietnam, Nha Trang is king. The well-maintained beach trundles for six kilometers along the shoreline of central Nha Trang city and during summer is jam-packed with local families on vacation, as well as foreign visitors.
+    moreInfo: `
+    For sandy fun in Vietnam, Nha Trang is king. The well-maintained beach trundles for six kilometers along the shoreline of central Nha Trang city and during summer is jam-packed with local families on vacation, as well as foreign visitors.
 
     There is excellent swimming here with designated swimming areas and manicured lounging areas that make this a great option for relaxing days soaking up the sun and sand.
     
@@ -119,7 +126,8 @@ export const placesToVisit = [
       "https://a.cdn-hotels.com/gdcs/production169/d706/0f0aac2e-d76c-491a-bdb7-8782ab164670.jpg",
       "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/77000/77654-Da-Nang.jpg"
     ],
-    moreInfo: `With broad beaches, fantastic street food, the fabled Hai Van Pass, and a growing collection of cafes, restaurants, and bars, it’s no wonder the residents of Da Nang sport some of the broadest smiles in the country. The warm sands of My Khe Beach sweep south from the mountainous Son Tra Peninsula. Da Nang hosts some of Vietnam's top luxury resorts, but much of the beach still belongs to the people who make it their playground, gym, and source of livelihood.`,
+    moreInfo: `
+    With broad beaches, fantastic street food, the fabled Hai Van Pass, and a growing collection of cafes, restaurants, and bars, it’s no wonder the residents of Da Nang sport some of the broadest smiles in the country. The warm sands of My Khe Beach sweep south from the mountainous Son Tra Peninsula. Da Nang hosts some of Vietnam's top luxury resorts, but much of the beach still belongs to the people who make it their playground, gym, and source of livelihood.`,
     description: "A coastal city with a modern vibe, Da Nang is famous for its pristine beaches, the Marble Mountains, and the iconic Golden Bridge.",
     thingsToDo: ["Explore Marble Mountains", "Relax on My Khe Beach", "Visit Ba Na Hills"]
   },
@@ -130,7 +138,8 @@ export const placesToVisit = [
       "https://vcdn1-dulich.vnecdn.net/2022/07/29/muine-1659059278-5222-16590594-9037-6291-1659068912.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=tzc1fgx29gobuD3qWKJfgA",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgmmjHuEElT6d2zbSf0roPmsvVOqZMenJwhQ&usqp=CAU"
     ],
-    moreInfo: `Once a sleepy coastal fishing town, Mui Né has developed into a beautiful beach resort town and a prime destination for windsurfing, sailing, and kitesurfing.
+    moreInfo: `
+    Once a sleepy coastal fishing town, Mui Né has developed into a beautiful beach resort town and a prime destination for windsurfing, sailing, and kitesurfing.
 
     Compared to other beach destinations in Vietnam, however, Mui Né remains relatively unknown - and this means pristine beaches and a quiet retreat for most of the year.
     One of Mui Né's most unique attractions is the natural Red Sand Dunes just outside town, where visitors can practice sand-sledding or rent dune buggies for a more adrenaline-charged experience.
@@ -148,7 +157,8 @@ export const placesToVisit = [
       "https://triple7travel.vn/upload/product/dao-ngoc-pq-4459.png",
       "https://vcdn1-dulich.vnecdn.net/2022/04/08/Phu-Quoc-9226-1649405350.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=h51OqoZGtadQj3WYCS8cig"
     ],
-    moreInfo: `Sitting 45 kilometers off the southern coast of the country, in the Gulf of Thailand, Phu Quoc is a densely forested island, speckled by sweeps of white-sand beach that attract plenty of sunseekers during the winter dry season.
+    moreInfo: `
+    Sitting 45 kilometers off the southern coast of the country, in the Gulf of Thailand, Phu Quoc is a densely forested island, speckled by sweeps of white-sand beach that attract plenty of sunseekers during the winter dry season.
 
     Dry season (November to May) is also when the island's underwater and on-the-water tourism attractions spring into action, with plenty of dive sites in the waters just offshore, as well as opportunities for snorkeling, kayaking, and boat trips.
     
@@ -168,7 +178,8 @@ export const placesToVisit = [
       "https://ahanetworkvietnam.files.wordpress.com/2021/09/huetourism_bang-lang-co-do-hue.jpg?w=1280",
       "https://www.nomadasaurus.com/wp-content/uploads/2020/01/khai_dinh_tomb_worldforagirl.jpg"
     ],
-    moreInfo: `One of Vietnam's most historic towns, Hue is packed to the brim with relics from the reign of the 19th-century Nguyen emperors.
+    moreInfo: `
+    One of Vietnam's most historic towns, Hue is packed to the brim with relics from the reign of the 19th-century Nguyen emperors.
 
     Sitting along the banks of the gorgeous Perfume River, the Imperial Enclosure is a huge site set within walls that sprawl for 2.5 kilometers.
     
@@ -189,7 +200,8 @@ export const placesToVisit = [
       "https://assets.traveltriangle.com/blog/wp-content/uploads/2018/11/All-About-The-Phong-Nha-Cave.jpg",
       "https://vietnamdiscovery.com/wp-content/uploads/2019/11/Cultural-Heritage-of-Phong-Nha-Ke-Bang.jpg"
     ],
-    moreInfo: `One of the best places to visit in Vietnam for caving, World Heritage-listed Phong Nha-Ke Bang National Park is a dramatic karst mountain formation honeycombed with huge caverns, which are home to superb stalactite and stalagmite displays.
+    moreInfo: `
+    One of the best places to visit in Vietnam for caving, World Heritage-listed Phong Nha-Ke Bang National Park is a dramatic karst mountain formation honeycombed with huge caverns, which are home to superb stalactite and stalagmite displays.
 
     The most popular destination within the park is the Paradise Cave, which extends for a staggering 31 kilometers below ground.
     
@@ -208,7 +220,8 @@ export const placesToVisit = [
       "https://media.audleytravel.com/-/media/images/home/southeast-asia/vietnam/places/istock_77224427_fishing_mekong_delta_3000x1000.jpg?q=79&w=1920&h=640",
       "https://vietnamdiscovery.com/wp-content/uploads/thumbnail/Cai-Rang-Floating-Market-Featured-pg6c3aovt98gcyui67udx8g5slbd0he52db4wld3tc.jpg"
     ],
-    moreInfo: `The far south of Vietnam is where the mighty Mekong River finally finds its way to the sea in a maze of waterways that crisscross the floodplain.
+    moreInfo: `
+    The far south of Vietnam is where the mighty Mekong River finally finds its way to the sea in a maze of waterways that crisscross the floodplain.
 
     Incredibly lush, with paddy field vistas and mangroves, and full of local life, with chaotic floating markets to explore by boat, the delta is one of the most interesting regions for travelers to discover.
     
@@ -224,7 +237,8 @@ export const placesToVisit = [
       "https://thereshegoesagain.org/wp-content/uploads/2021/02/ClayTunnels_Dalat_09.jpg",
       "https://nld.mediacdn.vn/291774122806476800/2023/4/30/sap-nhap-1-1682817100311843996433.jpg"
     ],
-    moreInfo: `Dalat or Da Lat is the capital city of Lam Dong province, Vietnam. Da Lat is the City of Flowers and honeymooners with lovely French villas, the fresh air, the beautiful waterfalls and gorgeous lakes sits in a lush and green valley of postcard beauty. 
+    moreInfo: `
+    Dalat or Da Lat is the capital city of Lam Dong province, Vietnam. Da Lat is the City of Flowers and honeymooners with lovely French villas, the fresh air, the beautiful waterfalls and gorgeous lakes sits in a lush and green valley of postcard beauty. 
 
     In the late nineteenth century, a Swiss man with French nationality was Alexandre Yersin, at the request of the French authorities at that time, explored the Central Highlands and reached the Lang Biang plateau to lead to the formation of the flower city today.
     Da Lat has been calling as Vietnam’s “vegetable garden” due to its year-round cool weather. Da Lat supplies temperate agriculture products for all over Vietnam. Indeed, Dalat is renowned for its orchids, roses, vegetables, and fruits. There are nascent wine-making and flower-growing industries in the region of Asia (main flower consuming market is Singapore, Hongkong, Korea, Japan).    `,
@@ -238,7 +252,8 @@ export const placesToVisit = [
       "https://static-images.vnncdn.net/files/publish/2022/9/2/beautiful-con-dao-island-seen-from-above-15a09c6184ef41b59b21f1ea17a45bda.jpg",
       "https://statics.vinpearl.com/con-dao-national-park-1_1687674238.jpg"
     ],
-    moreInfo: `This remote island group lies around 160 kilometers offshore in the South China Sea and is renowned among divers as one of the best places to visit in the country, both for the variety of sea life and for the coral reefs.
+    moreInfo: `
+    This remote island group lies around 160 kilometers offshore in the South China Sea and is renowned among divers as one of the best places to visit in the country, both for the variety of sea life and for the coral reefs.
 
     Much of the Con Dao Islands, and the surrounding water, is a protected wilderness area, with the island shores home to nesting turtles, and dense forest still covering the island interiors.
     
@@ -261,7 +276,8 @@ export const placesToVisit = [
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/ef/c6/68.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBciJNNMhRPU7fD4YpZJiBFbOdsVaV5HEeow&usqp=CAU"
     ],
-    moreInfo: `Cao Bang is an immensely beautiful, sparsely populated frontier region of North Vietnam. This mountainous expanse sits on the northeast border with China and is home to many ethnic minority communities. Although the Ban Gioc waterfalls have become a popular attraction, this region is often overlooked by tourists which has meant its unique beauty and culture has been well preserved. The landscape here is typified by jagged mountains carpeted in thick vegetation, sporadic rice paddies and thin winding roads. Typically the Vietnamese populations tended to avoid mountainous regions in favour of the better farmland in low-lying, flat areas. This meant that these remote and hilly areas were inhabited mainly by the ethnic minority communities and this is still largely the case in Cao Bang. The main groups living in the region are the Nung, Dao, Tay and H'mong. In April, 2018, the stunning natural beauty of the region was recognized when UNESCO made the decision to include Cao Bang in their Global Geoparks Network, making it Vietnam’s second entry on the list.`,
+    moreInfo: `
+    Cao Bang is an immensely beautiful, sparsely populated frontier region of North Vietnam. This mountainous expanse sits on the northeast border with China and is home to many ethnic minority communities. Although the Ban Gioc waterfalls have become a popular attraction, this region is often overlooked by tourists which has meant its unique beauty and culture has been well preserved. The landscape here is typified by jagged mountains carpeted in thick vegetation, sporadic rice paddies and thin winding roads. Typically the Vietnamese populations tended to avoid mountainous regions in favour of the better farmland in low-lying, flat areas. This meant that these remote and hilly areas were inhabited mainly by the ethnic minority communities and this is still largely the case in Cao Bang. The main groups living in the region are the Nung, Dao, Tay and H'mong. In April, 2018, the stunning natural beauty of the region was recognized when UNESCO made the decision to include Cao Bang in their Global Geoparks Network, making it Vietnam’s second entry on the list.`,
     description: "Located in the far north, Cao Bang boasts dramatic landscapes, waterfalls, and the stunning Ban Gioc Waterfall.",
     thingsToDo: ["Visit Ban Gioc Waterfall", "Explore Pac Bo Cave", "Hike to Phia Oac-Phia Den National Park"]
   },
@@ -272,7 +288,8 @@ export const placesToVisit = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBkVOE7wvguXZNrNL3T7wpNJAmJ8uwU69XsQ&usqp=CAU",
       "https://www.visithalongbay.com/media/cache/4f/e0/4fe0872d5d118ea5f86eef25e12d05cf.jpg"
     ],
-    moreInfo: `One of Vietnam's major centers for activities and adventure travel attractions, Cat Ba Island sits on the western edge of Halong Bay.
+    moreInfo: `
+    One of Vietnam's major centers for activities and adventure travel attractions, Cat Ba Island sits on the western edge of Halong Bay.
 
     This is the best place to visit if you want to organize cruises and kayaking trips in Lan Ha Bay, which lies off Cat Ba's southern coast. Lan Ha Bay is a less visited seascape of karst islets and outcrops that makes for a quieter alternative to Halong Bay.
     
@@ -306,9 +323,9 @@ export const foodAndDestinations = [
 {
   name: "Cao Lau",
   url: [
-    "https://vietasiatravel.com/uploads/Travel_guide/cao-lau-hoi-an.jpg",
-    "https://danangleisure.com/wp-content/uploads/2023/04/Cao-Lau-Da-Nang.jpg",
-    "https://www.tasteatlas.com/images/dishes/697858ab3add4647a1976c301a532f09.jpg"
+    "https://img.tastykitchen.vn/crop/1200x628/2022/06/03/cao-lau-hoi-an-06-52b7.jpg",
+    "https://dulichkhampha24.com/wp-content/uploads/2021/03/cao-lau-hoi-an-1-2.jpg",
+    "https://www.hoidaubepaau.com/wp-content/uploads/2017/11/cao-lau-hoi-an.jpg"
   ],
   places: ["Hoi An"]
 },
