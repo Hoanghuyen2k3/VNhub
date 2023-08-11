@@ -11,6 +11,7 @@ import Nav from './components/nav/Nav';
 import Food from './components/food/Food';
 import Festival from './components/festival/Festival';
 import Attractions from './components/destinations/Attractions';
+import Place from './components/destinations/Place';
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     
@@ -20,6 +21,7 @@ function App() {
       <Route path="festival" element={<Festival />} />
       <Route path="foods" element={<Food />} />
       <Route path="attractions" element={<Attractions />} />
+      <Route path="attractions/:index" element={<Place />} /> 
 
       
     </Route>))
