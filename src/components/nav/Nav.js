@@ -1,13 +1,15 @@
 import React from 'react'
 import {NavLink, Outlet} from 'react-router-dom'
+import "./Nav.scss"
 function Nav() {
   return (
     <div>
-        <div>
-            <NavLink to="home">Home</NavLink>
-            <NavLink to="festival">Festivals</NavLink>
-            <NavLink to="attractions">Attractions</NavLink>
-            <NavLink to="foods">Vietnamese Cuisine</NavLink>
+        <div className="main-nav">
+
+            <NavLink to="home" activeClassName="active-link">VNhub</NavLink>
+            <NavLink to="festival" activeClassName="active-link">Festivals</NavLink>
+            <NavLink to="attractions" activeClassName="active-link">Attractions</NavLink>
+            <NavLink to="foods" activeClassName="active-link">Vietnamese Cuisine</NavLink>
 
         </div>
         <div>

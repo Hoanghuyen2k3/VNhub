@@ -27,7 +27,7 @@ function Card({food, index}) {
               options={{
                 max: 45,
                 scale: 1,
-                speed: 450,
+                speed: 100,
               }}
               onClick={handleClick} 
               key={index}
