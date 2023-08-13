@@ -10,6 +10,7 @@ function Nav() {
             <NavLink to="festival" activeClassName="active-link">Festivals</NavLink>
             <NavLink to="attractions" activeClassName="active-link">Attractions</NavLink>
             <NavLink to="foods" activeClassName="active-link">Vietnamese Cuisine</NavLink>
+            <NavLink to="contact" activeClassName="active-link">Contact Us</NavLink>
 
         </div>
         <div className="outlet">

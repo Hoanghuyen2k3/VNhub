@@ -13,41 +13,17 @@ function Card({food, index}) {
     navigate(`${food.id}`);
   }
   return (
-    <motion.section
-        variants={staggerContainer()}
-        initial='hidden'
-        whileInView='show'
-        viewport={{ once: true, amount: 0.25 }}
-      >
-        <span>
-          &nbsp;
-        </span>
-          <motion.div variants={fadeIn("left", "spring", index * 0.5, 0.75)}>
-            <div
-              options={{
-                max: 45,
-                scale: 1,
-                speed: 100,
-              }}
-              onClick={handleClick} 
-              key={index}
-              className="card-container"
-              >
-                <div className="img"><img width={100} src={food.url[0]} /></div>
-                <h2>{food.name}</h2>
-                <p className="foods-location">{`Locations: ${food.places.join(", ")}`}</p>
-            </div>
-
-          </motion.div>
-
-    
-
-       
-      </motion.section>
+   
+    <div onClick={handleClick} 
+    key={index}
+    className="card-container"
+    >
+      <div className="img"><img width={100} src={food.url[0]} /></div>
+      <h2>{food.name}</h2>
+      <p className="foods-location">{`Locations: ${food.places.join(", ")}`}</p>
+  </div>
 
 
-
-    
   )
 }
 
