@@ -22,8 +22,8 @@ function App() {
       <Route path="festival" element={<Festival />} />
       <Route path="foods" element={<Food />} />
       <Route path="attractions" element={<Attractions />} />
-      <Route path="attractions/:index" element={<Place />} /> 
-      <Route path="foods/:index" element={<EachFood />} /> 
+      <Route path="attractions/:id" element={<Place />} /> 
+      <Route path="foods/:id" element={<EachFood />} /> 
 
 
       

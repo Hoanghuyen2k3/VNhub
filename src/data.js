@@ -8,6 +8,7 @@ export const placesToVisit = [
       
 
     ],
+    id: 1,
     moreInfo: `
     Vietnam's capital is the frenetic heartbeat of the nation and a place that befuddles travelers as much as it charms them.
 
@@ -21,6 +22,7 @@ export const placesToVisit = [
   },
   {
     name: "Ho Chi Minh City",
+    id: 2,
     url: [
       "https://cdn1.img.sputniknews.vn/img/301/85/3018543_106:0:1813:1280_1920x0_80_0_0_7e8ef9c79247de20f96467b28258aa0d.jpg",
       "https://owa.bestprice.vn/images/articles/uploads/tat-tan-tat-cac-cho-lon-o-thanh-pho-ho-chi-minh-ban-nhat-dinh-nen-ghe-toi-mot-lan-5f4e1c24576f7.jpg",
@@ -46,6 +48,7 @@ export const placesToVisit = [
     thingsToDo: ["Visit War Remnants Museum", "Stroll along Nguyen Hue Walking Street", "Explore Ben Thanh Market"]
   },
   {
+    id:3,
     name: "Hoi An",
     url: [
       "https://touristjourney.com/wp-content/uploads/2020/05/Da-Nang-bridge-1024x682.jpg",
@@ -66,6 +69,7 @@ export const placesToVisit = [
     thingsToDo: ["Walk through Ancient Town", "Visit Japanese Covered Bridge", "Take a cooking class"]
   },
   {
+    id: 4, 
     name: "Ha Long Bay",
     url: [
       "https://images2.thanhnien.vn/528068263637045248/2023/3/27/edit-cauduonghlzing2-1679906556196194353586.png",
@@ -84,6 +88,7 @@ export const placesToVisit = [
     thingsToDo: ["Take a cruise through the bay", "Explore Sung Sot Cave", "Go kayaking"]
   },
   {
+    id: 5,
     name: "Sapa",
     url: [
       "https://s39023.pcdn.co/wp-content/uploads/2020/03/Things-To-Do-In-Sapa-Where-Are-Those-Morgans.jpg.optimal.jpg",
@@ -102,6 +107,7 @@ export const placesToVisit = [
     thingsToDo: ["Trek to Cat Cat village", "Admire Fansipan Mountain", "Shop for local handicrafts"]
   },
   {
+    id: 6,
     name: "Nha Trang",
     url: [
       "https://a.cdn-hotels.com/gdcs/production43/d1331/261bab74-5edd-4f18-97c1-e945ebee1956.jpg",
@@ -120,6 +126,7 @@ export const placesToVisit = [
     thingsToDo: ["Visit Vinpearl Land", "Relax on Nha Trang Beach", "Go diving or snorkeling"]
   },
   {
+    id: 7,
     name: "Da Nang",
     url: [
       "https://a.cdn-hotels.com/gdcs/production126/d1337/a4fd6b39-16b6-4230-bcf1-155a0d9a72c1.jpg",
@@ -132,6 +139,7 @@ export const placesToVisit = [
     thingsToDo: ["Explore Marble Mountains", "Relax on My Khe Beach", "Visit Ba Na Hills"]
   },
   {
+    id: 8,
     name: "Mui Ne",
     url: [
       "https://thesologlobetrotter.com/wp-content/uploads/2018/01/sand-dunes-4122263_1280-2-scaled.jpg",
@@ -151,6 +159,7 @@ export const placesToVisit = [
     thingsToDo: ["Visit Red Sand Dunes", "Take a jeep tour to White Sand Dunes", "Enjoy kite surfing"]
   },
   {
+    id: 9,
     name: "Phu Quoc Island",
     url: [
       "https://vcdn1-english.vnecdn.net/2021/01/14/PQ-1610609299.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=QPETYkJlN9eKaDJxPdWGSg",
@@ -172,6 +181,7 @@ export const placesToVisit = [
     thingsToDo: ["Relax on Sao Beach", "Explore Dinh Cau Night Market", "Visit Vinpearl Safari"]
   },
   {
+    id: 10, 
     name: "Hue",
     url: [
       "https://www.travellens.co/content/images/2021/10/hue-vietnam.jpg",
@@ -194,6 +204,7 @@ export const placesToVisit = [
     thingsToDo: ["Explore the Imperial City", "Visit Thien Mu Pagoda", "Cruise along Perfume River"]
   },
   {
+    id: 11, 
     name: "Phong Nha-Ke Bang National Park",
     url: [
       "https://vietnamdiscovery.com/wp-content/uploads/2019/11/Phong-nha-ke-bang-national-park.jpg",
@@ -214,6 +225,7 @@ export const placesToVisit = [
     thingsToDo: ["Explore Phong Nha Cave", "Discover Son Doong Cave", "Visit Paradise Cave"]
   },
   {
+    id: 12,
     name: "Mekong Delta",
     url: [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLuRTVeaAG2erKcarqrQ3ZUNQ2QUx7IRxyoCz3RHKHS7AUuzrHP97hSM0kiKfG5dkoI34&usqp=CAU",
@@ -231,6 +243,7 @@ export const placesToVisit = [
   },
   
   {
+    id: 13,
     name: "Dalat",
     url: [
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/84/f2/8e.jpg",
@@ -246,6 +259,7 @@ export const placesToVisit = [
     thingsToDo: ["Explore Crazy House", "Visit Flower Park", "Take a cable car to Truc Lam Pagoda"]
   },
   {
+    id: 14,
     name: "Con Dao Islands",
     url: [
       "https://vietnamtrips.com/files/photos/category135/con-dao-island-title-photo.jpg",
@@ -270,6 +284,7 @@ export const placesToVisit = [
     thingsToDo: ["Relax on untouched beaches", "Explore Con Dao Prison", "Go snorkeling or diving"]
   },
   {
+    id: 15,
     name: "Cao Bang",
     url: [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/d3/4a/fe/angel-eye-mountain.jpg?w=700&h=-1&s=1",
@@ -282,6 +297,7 @@ export const placesToVisit = [
     thingsToDo: ["Visit Ban Gioc Waterfall", "Explore Pac Bo Cave", "Hike to Phia Oac-Phia Den National Park"]
   },
   {
+    id: 16,
     name: "Cat Ba Island",
     url: [
       "https://authentiktravel.com/media/ckeditor/cat-ba-beach-in-holiday.jpg",
@@ -303,6 +319,7 @@ export const placesToVisit = [
 
 export const foodAndDestinations = [
 {
+  id: 1,
   name: "Bun Cha",
   url: [
       "https://culturephamtravel.com/wp-content/uploads/2022/09/best-bun-cha-hanoi-culture-pham-travel-2-1024x769.jpg",
@@ -312,6 +329,7 @@ export const foodAndDestinations = [
   places: ["Hanoi", "Hai Phong"]
 },
 {
+  id: 2,
   name: "Pho",
   url: [
       "https://upload.wikimedia.org/wikipedia/commons/5/53/Pho-Beef-Noodles-2008.jpg",
@@ -321,6 +339,7 @@ export const foodAndDestinations = [
   places: ["Hanoi", "Ho Chi Minh City"]
 },
 {
+  id: 3,
   name: "Cao Lau",
   url: [
     "https://img.tastykitchen.vn/crop/1200x628/2022/06/03/cao-lau-hoi-an-06-52b7.jpg",
@@ -330,6 +349,7 @@ export const foodAndDestinations = [
   places: ["Hoi An"]
 },
 {
+  id: 4,
   name: "Banh Mi",
   url: [
     "https://afamilycdn.com/thumb_w/640/150157425591193600/2020/4/13/artboard-3-1586758061634835492767-0-0-500-800-crop-15867581193952107008613.png",
@@ -339,6 +359,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City", "Hoi An"]
 },
 {
+  id: 5,
   name: "Mi Quang",
   url: [
     "https://vietnamtrips.com/files/photos/article1276/mi-quang-noodle.jpg",
@@ -348,6 +369,7 @@ export const foodAndDestinations = [
   places: ["Da Nang"]
 },
 {
+  id: 6, 
   name: "Bun Bo Hue",
   url: [
     "https://whattocooktoday.com/wp-content/uploads/2023/03/bbh-1.jpg",
@@ -357,6 +379,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 7,
   name: "Com tam",
   url: [
     "https://images.foody.vn/res/g18/171840/prof/s/file_restaurant_photo_j59m_16363-6892d5af-211108221755.jpg",
@@ -366,6 +389,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City"]
 },
 {
+  id: 8,
   name: "Goi Cuon",
   url: [
     "https://www.wokandkin.com/wp-content/uploads/2021/04/Vietnamese-Rice-Paper-Rolls-Close-Up-saved-for-web.png",
@@ -375,6 +399,7 @@ export const foodAndDestinations = [
   places: ["Various"]
 },
 {
+  id: 9,
   name: "Bun Rieu",
   url: [
     "https://i2.wp.com/seonkyounglongest.com/wp-content/uploads/2018/06/Bun-Rieu-07.jpg?fit=1300%2C731&ssl=1",
@@ -384,6 +409,7 @@ export const foodAndDestinations = [
   places: ["Hanoi", "Hai Phong"]
 },
 {
+  id: 10,
   name: "Banh Xeo",
   url: [
     "https://vietnamnomad.com/wp-content/uploads/2022/07/Banh-Xeo-A-guide-to-Vietnamese-Pancakes-Vietnamnomad.jpg",
@@ -393,6 +419,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City", "Da Nang"]
 },
 {
+  id: 11,
   name: "Bun Thit Nuong",
   url: [
     "https://carmyy.com/wp-content/uploads/2021/10/bun-thit-nuong-9.jpg",
@@ -402,6 +429,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City"]
 },
 {
+  id: 12,
   name: "Nem Nuong",
   url: [
     "https://www.huongnghiepaau.com/wp-content/uploads/2019/01/nem-nuong-mien-tay620x400.jpg",
@@ -411,6 +439,7 @@ export const foodAndDestinations = [
   places: ["Nha Trang"]
 },
 {
+  id: 13,
   name: "Hu Tieu",
   url: [
     "https://vietnamnomad.com/wp-content/uploads/2022/09/The-origin-of-hu-tieu-Vietnamnomad.jpg",
@@ -420,6 +449,7 @@ export const foodAndDestinations = [
   places: ["Mekong Delta"]
 },
 {
+  id: 14,
   name: "Banh Khot",
   url: [
     "https://www.wokandkin.com/wp-content/uploads/2021/02/Banh-Khot-Close-Up-saved-for-web.png",
@@ -429,6 +459,7 @@ export const foodAndDestinations = [
   places: ["Vung Tau", "Ho Chi Minh City"]
 },
 {
+  id: 15,
   name: "Bun Mam",
   url: [
     "https://i0.wp.com/www.wokandkin.com/wp-content/uploads/2020/06/Bun-Mam-Angled-saved-for-web.png?resize=600%2C900&ssl=1",
@@ -438,6 +469,7 @@ export const foodAndDestinations = [
   places: ["Mekong Delta"]
 },
 {
+  id: 16,
   name: "Bun Ca",
   url: [
     "https://vietnamnomad.com/wp-content/uploads/2022/12/Bun-Ca-Nha-Trang-Vietnamnomad.jpg",
@@ -447,6 +479,7 @@ export const foodAndDestinations = [
   places: ["Mekong Delta"]
 },
 {
+  id: 17,
   name: "Nem Ran",
   url: [
     "https://img.taste.com.au/vPWXXadt/taste/2016/11/nem-ran-north-vietnamese-spring-rolls-21763-1.jpeg",
@@ -456,6 +489,7 @@ export const foodAndDestinations = [
   places: ["Hanoi", "Hue"]
 },
 {
+  id: 18,
   name: "Bun Moc",
   url: [
     "https://yummyvietnam.net/wp-content/uploads/2017/02/Vietnamese-bun-moc-recipe-How-to-make-the-best-bun-moc12.png",
@@ -465,6 +499,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 19,
   name: "Bun Oc",
   url: [
     "https://www.luxurycruisemekong.com/wp-content/uploads/2017/01/Snail-noode-in-Mekong.jpg",
@@ -474,6 +509,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 20,
   name: "Banh Canh",
   url: [
     "https://images.squarespace-cdn.com/content/v1/52d3fafee4b03c7eaedee15f/1453873042236-8B0HJ403NLIOV5QDVRAN/banh+canh+vietnamese+thick+noodle+soup+recipe",
@@ -483,6 +519,7 @@ export const foodAndDestinations = [
   places: ["Various"]
 },
 {
+  id: 21,
   name: "Goat Curry",
   url: [
     "https://i.ytimg.com/vi/aYn1edNDN0M/maxresdefault.jpg",
@@ -492,6 +529,7 @@ export const foodAndDestinations = [
   places: ["Mui Ne"]
 },
 {
+  id: 22,
   name: "Chao Long",
   url: [
     "https://images.foody.vn/res/g25/245020/prof/s576x330/foody-mobile-foody-chao-long-hai--594-636014051026334282.jpg",
@@ -502,6 +540,7 @@ export const foodAndDestinations = [
 },
 
 {
+  id: 23,
   name: "Mi Vit Tiem",
   url: [
     "https://delightfulplate.com/wp-content/uploads/2020/03/Vietnamese-Duck-Noodle-Soup-Mi-Vit-Tiem-1.jpg",
@@ -511,6 +550,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 24,
   name: "Bo La Lot",
   url: [
     "https://d13jio720g7qcs.cloudfront.net/images/guides/origin/5f62d2a6e8313.jpg",
@@ -519,7 +559,7 @@ export const foodAndDestinations = [
   ],
   places: ["Ho Chi Minh City", "Hue"]
 },
-{
+{ id: 25,
   name: "Bun Dau Mam Tom",
   url: [
     "https://vietnamnomad.com/wp-content/uploads/2023/05/What-is-bun-dau-mam-tom.jpg",
@@ -529,6 +569,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 26,
   name: "Banh Tom",
   url: [
     "https://www.tasteatlas.com/images/dishes/70b363b42c2848b5b60cf3f328c4aba0.jpg",
@@ -538,6 +579,7 @@ export const foodAndDestinations = [
   places: ["Hanoi", "Hue"]
 },
 {
+  id: 27,
   name: "Banh Da Cua",
   url: [
     "https://cdn.tgdd.vn/Files/2020/01/14/1231533/cach-nau-banh-da-cua-ngon-dung-chuan-vi-hai-phong-17.jpg",
@@ -547,6 +589,7 @@ export const foodAndDestinations = [
   places: ["Hai Phong"]
 },
 {
+  id: 28,
   name: "Bun Chao Tom",
   url: [
     "https://delightfulplate.com/wp-content/uploads/2020/06/Vietnamese-Shrimp-on-Sticks-Chao-Tom.jpg",
@@ -556,6 +599,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 29,
   name: "Cha Ca",
   url: [
     "https://runawayrice.com/wp-content/uploads/2015/04/Fish-Cakes.jpg",
@@ -565,6 +609,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 30,
   name: "Bun Bo Nam Bo",
   url: [
     "https://images.eatsmarter.com/sites/default/files/styles/max_size/public/bun-bo-nam-bo-678743.jpg",
@@ -574,6 +619,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City"]
 },
 {
+  id: 31,
   name: "Banh Trang Nuong",
   url: [
     "https://cdn.tgdd.vn/Files/2017/03/12/960051/cach-lam-banh-trang-nuong-ngon-cuc-nhanh-voi-chao-chong-dinh-202112282139542041.jpg",
@@ -583,6 +629,7 @@ export const foodAndDestinations = [
   places: ["Dalat"]
 },
 {
+  id: 32,
   name: "Com Hen",
   url: [
     "https://upload.wikimedia.org/wikipedia/commons/5/5c/H%E1%BA%BFn_tr%E1%BB%99n.jpg",
@@ -592,6 +639,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 33,
   name: "Banh Beo",
   url: [
     "https://travinhnetworks.files.wordpress.com/2017/03/banhbeo2b.jpg",
@@ -601,6 +649,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 34,
   name: "Bun Mien Ngan",
   url: [
     "https://i.ytimg.com/vi/11iNN_Uw3eQ/maxresdefault.jpg",
@@ -610,6 +659,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id:35,
   name: "Banh Loc",
   url: [
     "https://cdn.tgdd.vn/2021/10/CookDish/cach-lam-banh-bot-loc-la-chuoi-kieu-hue-dai-mem-trong-veo-cuc-avt-1200x676-1.jpg",
@@ -619,6 +669,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 36, 
   name: "Bun Bung",
   url: [
     "https://flavorboulevard.com/wp-content/uploads/2010/09/bun-bung.jpg",
@@ -628,6 +679,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 37,
   name: "Goi Ngo Sen",
   url: [
     "https://vietnamesefood.com.vn/pictures/VietnameseFood2/Lotus-stem-salad-with-shrimps.jpg",
@@ -637,6 +689,7 @@ export const foodAndDestinations = [
   places: ["Mekong Delta"]
 },
 {
+  id: 38, 
   name: "Bun Ca Loc",
   url: [
     "https://cdn.tgdd.vn/2021/03/CookRecipe/Avatar/bun-ca-loc-thumbnail.jpg",
@@ -646,6 +699,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 39,
   name: "Com Ga Hoi An",
   url: [
     "https://statics.vinpearl.com/com-ga-hoi-an-01_1669733755.jpg",
@@ -655,6 +709,7 @@ export const foodAndDestinations = [
   places: ["Hoi An"]
 },
 {
+  id: 40, 
   name: "Bun Bo Xao",
   url: [
     "https://www.cooking-therapy.com/wp-content/uploads/2020/04/Bun-Bo-Xao-7-scaled.jpg",
@@ -664,6 +719,7 @@ export const foodAndDestinations = [
   places: ["Various"]
 },
 {
+  id: 41,
   name: "Hu Tieu Nam Vang",
   url: [
     "https://www.wokandkin.com/wp-content/uploads/2020/04/Hu-Tieu-saved-for-web-500x500.png",
@@ -673,6 +729,7 @@ export const foodAndDestinations = [
   places: ["Ho Chi Minh City"]
 },
 {
+  id: 42,
   name: "Bun Mang Vit",
   url: [
     "https://delightfulplate.com/wp-content/uploads/2020/08/Bun-Mang-Vit-Vietnamese-Duck-Vermicelli-Noodle-Soup.jpg",
@@ -682,6 +739,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 43,
   name: "Banh Gio",
   url: [
     "https://i.ytimg.com/vi/mqNyHPyEKY0/maxresdefault.jpg",
@@ -691,6 +749,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 44,
   name: "Goi Xoai",
   url: [
     "https://runawayrice.com/wp-content/uploads/2016/05/Mango-and-Shrimp-Salad-Goi-Xoai-Tom-1024x576.jpg",
@@ -700,6 +759,7 @@ export const foodAndDestinations = [
   places: ["Mekong Delta"]
 },
 {
+  id: 45,
   name: "Banh Dap",
   url: [
     "https://vietnamtimes.org.vn/stores/news_dataimages/linhdangvnt/062021/12/15/in_article/4501_banh-dap-mon-ngon-dan-da-dat-mien-trung-1-ivivu.jpg?rt=20210612154502",
@@ -709,6 +769,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 46,
   name: "Bun Nem Cua Be",
   url: [
     "https://cdn.tgdd.vn/2022/01/CookDish/cach-lam-bun-nem-cua-be-thom-gion-vang-uom-kho-cuong-cuc-don-avt-1200x676.jpg",
@@ -718,6 +779,7 @@ export const foodAndDestinations = [
   places: ["Hanoi"]
 },
 {
+  id: 47,
   name: "Banh Uot",
   url: [
     "https://images.food52.com/kGJHjpIcqxMSOrOfzxaM2r_i9Ug=/1200x675/65d94dd2-1509-4e86-9f82-02bc2190de45--Vegan-Banh-Cuon-F52Website.jpg",
@@ -727,6 +789,7 @@ export const foodAndDestinations = [
   places: ["Hue"]
 },
 {
+  id: 48,
   name: "Cha Gio",
   url: [
     "https://www.wokandkin.com/wp-content/uploads/2021/03/Cha-Gio-Chay-Close-Up-saved-for-web.png",

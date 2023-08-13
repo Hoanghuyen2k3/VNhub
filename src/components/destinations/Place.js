@@ -6,8 +6,9 @@ import "./Place.scss"
 function Place() {
     const params = useParams();
     console.log(params)
-    const index = parseInt(params.index);
-    const place = placesToVisit[index];
+    const pl = placesToVisit.filter(p => p.id === parseInt(params.id));
+    const place = pl[0]
+    console.log(place)
     const [image, setImage] = useState()
   return (
     <div className="place">

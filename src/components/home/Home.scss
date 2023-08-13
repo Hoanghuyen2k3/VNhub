@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
-    opacity: 0.5;
+    opacity: 0.4;
     .header-img-container {
       margin: 0;
         img {
@@ -32,6 +32,9 @@
     h1 {
         font-weight: 900;
         font-size: 15vw;
+        border: 2px solid #0e0c0c;
+        padding: 10px;
+        background-color: transparent;
         
         animation: fadeInT 4s ease-in-out; 
         position: absolute;
@@ -54,6 +57,7 @@
       .quote {
         font-size: clamp(19px, 3vw, 25px);
         display: inline-block;
+        font-weight: 600;
         span {
             opacity: 0;
             
@@ -102,16 +106,49 @@
 .home-body {
   text-align: left;
   font-size: clamp(13px, 2vw, 16px);
-  margin-left: 50px;
+  // background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/7c085e50670927.56088cee3e1fd.jpg");
+  // background-repeat: no-repeat;
+  // background-size: 100% auto;
+  // // background-size: auto;
   margin-top: 30px;
+  margin-left: 50px;
+  // display: grid;
+  // grid-template-columns: repeat(3, 1fr);
+  // grid-template-rows:repeat(3, 1fr) ;
+  // grid-template-areas: "b1 e  b2"
+  //                     //  "em e e ef"
+  //                      "b3 e  b4";
+  // .b1 {
+  //   grid-area: b1;
+  //   margin-left: 40px;
+  // }
+  .b2, .b4 {
+    margin-left: 100px;
+  }
+  // .b3 {
+  //   grid-area: b3;
+  //   margin-left: 40px;
+  // }
+  // .b4 {
+  //   grid-area: b4;
+  //   margin-right: 40px;
+
+  // }
+  .body {
+    width: 80vw;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
   .container {
     display: flex;
     justify-content: space-between;
   }
-  .body {
-    width: 30%;
-    
-  }
+  
   .slideshow-container {
     display: flex;
     overflow: hidden;
@@ -121,16 +158,34 @@
       width: 100px
     }
   }
+  
 
  
 
 }
-@media only screen and (max-width: 700px){
+
+.calling-container {
+  width: 90vw;
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: clamp(14px, 2.5vw, 20px);
+  .calling {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 900px){
   .home-container {
     .header {
       height: 400px;
       
     }
   }
+  .home-body{
+    .b2, .b4 {
+      margin-left: 0px;
+    }
 
+  }
+  
+ 
 }

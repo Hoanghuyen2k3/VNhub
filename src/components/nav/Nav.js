@@ -12,7 +12,7 @@ function Nav() {
             <NavLink to="foods" activeClassName="active-link">Vietnamese Cuisine</NavLink>
 
         </div>
-        <div>
+        <div className="outlet">
             <Outlet />
         </div>
         

@@ -9,7 +9,7 @@ function Card({place, index}) {
   const navigate = useNavigate();
   const handleClick=(e)=>{
     e.preventDefault();
-    navigate(`${index}`);
+    navigate(`${place.id}`);
   }
   return (
     
