@@ -1,0 +1,115 @@
+.contact1-container {
+    button {
+        font-size: clamp(12px, 1.5vw, 16px);
+    }
+    .one {
+        background-color: rgb(240, 208, 50);
+
+
+    }
+}
+.destination-container {
+    display: flex;
+    flex-wrap: wrap;
+    label {
+        width: 30%;
+        margin: 10px 5px;
+    }
+    .input {
+        height: 25px;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+}
+.option-buttons {
+    // background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .yellow{
+        background-color: rgb(245, 198, 45);
+    }
+    .normal {
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin: 10px;
+        width: 20%;
+    }
+}
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    .counter-container {
+        display: flex;
+        .counter {
+            display: flex;
+            width: 50%;
+            justify-content: end;
+            align-items: center;
+            // background-color: aqua;
+            margin-right: 0;
+        }
+        button {
+            height: 30px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+    
+}
+.choose-date{
+    // background-color: antiquewhite;
+    align-items: center; 
+    width: 45%;
+    .custom-datepicker{
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+    }
+}
+.more-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    textarea {
+        height: 150px;
+        width: 100%;
+        padding: 10px
+    }
+    button {
+        // width: 150px;
+        padding: 5px;
+        margin-top: 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(240, 208, 50);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .option-buttons {
+        
+        .normal {
+           
+            width: 30%;
+        }
+    }
+    .date-container {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        // background-color: aquamarine;
+    }
+    .choose-date{
+        width: 100%;
+    }
+}

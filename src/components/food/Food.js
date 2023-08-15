@@ -25,9 +25,9 @@ function Food() {
   }
   return (
     <div className="main-food-container">
-      <div>
+      <div className="search-container">
         <form onSubmit ={handleSubmit}>
-          <input type="text" onChange={(e)=> setSearch(e.target.value)} />
+          <input type="text" placeholder='Search foods ...' onChange={(e)=> setSearch(e.target.value)} />
           <button type="submit"><FaSearchengin /></button>
         </form>
       </div>

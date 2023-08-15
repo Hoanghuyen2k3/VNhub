@@ -27,9 +27,9 @@ function Attractions() {
 
   return (
     <div className="places-container">
-      <div>
+      <div className="search-container">
         <form onSubmit ={handleSubmit}>
-          <input type="text" onChange={(e)=> setSearch(e.target.value)} />
+          <input type="text" placeholder='Explore new places...' onChange={(e)=> setSearch(e.target.value)} />
           <button type="submit"><FaSearchengin /></button>
         </form>
       </div>

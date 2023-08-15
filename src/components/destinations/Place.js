@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import "./Place.scss"
 import Review from '../review/Review'
 import { foodAndDestinations } from '../../data'
+import { FaLocationArrow } from "react-icons/fa";
 function Place() {
     const params = useParams();
     console.log(params)
@@ -19,19 +20,20 @@ function Place() {
     console.log(foods)
   return (
     <div className="place">
-        <h1>{place.name}</h1>
-
+        
         <div className="place-nav">
-            <a href="#description" >Description</a>
-            <a href="#about">About</a>
-            <a href="#img">Images</a>
-            <a href="#todo">Things to do</a>
-            <a href="#cuisine">Cuisine</a>
-            <a href="#review">Reviews</a>
+            <a href="#description" >Description <FaLocationArrow  className="icon"/></a>
+            <a href="#about">About <FaLocationArrow  className="icon"/></a>
+            <a href="#img">Images <FaLocationArrow  className="icon"/></a>
+            <a href="#todo">Things to do <FaLocationArrow  className="icon"/></a>
+            <a href="#cuisine">Cuisine <FaLocationArrow  className="icon"/></a>
+            <a href="#review">Reviews <FaLocationArrow  className="icon"/></a>
         </div>
         <div className="place-info">
+            <h1>{place.name}</h1>
+
             <div><img src={place.url[0]} /></div>
-            <h2 id="description">Desccription</h2>
+            <h2 id="description">Description</h2>
             <p>{place.description}</p>
             <h2 id="about">About</h2>
             <div className="about">{place.moreInfo}</div>
@@ -46,13 +48,17 @@ function Place() {
             </ul>
             <div id="cuisine">
                 <h2>Must Try</h2>
+                <div className="cuisine-container">
                 {
-                    foods.map(f=><div>
+                    foods.map(f=>
+                    <div className="container">
                         <h3>{f.name}</h3>
                         <img src={f.url[0]} />
                     </div>)
                 }
 
+
+                </div>
             </div>
             <div id="review">
                 <h2>Reviews</h2>

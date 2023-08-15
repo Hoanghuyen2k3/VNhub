@@ -1,32 +1,47 @@
 .place {
     position: relative;
-    font-size: clamp(14px, 2.5vw, 18px);
+    font-size: clamp(12px, 1.5vw, 16px);
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+      }
+      
 }
 .place-nav {
     display: flex;
     flex-direction: column;
     position: fixed;
+    // background-color: antiquewhite;
     // width: 10%;
-    top: 35%;
-    left: 1%;
+    top: 20%;
+    left: 2%;
     text-align: left;
+    font-size: clamp(12px, 1.5vw, 18px);
+    // background-color: antiquewhite;
+    // height: 100vw;
+    // background-color: antiquewhite;
     a{
         text-decoration: none;
         color: black;
         font-weight: 600;
-        background-color: antiquewhite;
+        
         margin: 5px;
         padding: 5px;
-        border-top: 10px solid red; /* Height of the triangle and color */
-        border-right: 10px solid transparent;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;        // border-right: 10px solid transparent;
+    }
+    .icon {
+        font-size: clamp(6px, 1.5vw, 9px);
     }
 }
 
 .place-info {
-    margin-left: 250px;
-    // margin-right: 50px;
-    background-color: aliceblue;
-    width: 90%;
+    // margin-left: 200px;
+    // margin-right: 5px;
+    // background-color: aliceblue;
+    width: 80%;
     max-width: 800px;
     
     img {
@@ -35,7 +50,7 @@
     }
     .about {
         width:100%;
-        background-color: aqua;
+        // background-color: aqua;
         white-space: pre-line;
         text-align: left;
         
@@ -51,8 +66,51 @@
     }
     
 }
-@media only screen and (max-width: 768px) {
-    .place-info {
-        margin-left: 25px;
+
+.cuisine-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .container {
+        width: 30%;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        // font-size: clamp(12px, 1.5vw, 18px);
+        img {
+            width: 90%;
+            max-height: 150px;
+        }
     }
+}
+@media only screen and (max-width: 768px) {
+    .place-nav {
+        flex-direction: row;
+        position: fixed;
+        background-color: rgb(242, 208, 35);
+        justify-content: center;
+        // background-color: antiquewhite;
+        // width: 10%;
+        top: 95vh;
+        width: 100vw;
+        left: 0%;
+        // left: 2%;
+    }
+
+    .cuisine-container {
+        
+        .container {
+            width: 40%;
+            margin: 10px;
+            
+            img {
+              
+                max-height: 100px;
+            }
+        }
+    }
+
+    // .place-info {
+    //     margin-left: 25px;
+    // }
 }
