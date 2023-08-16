@@ -452,9 +452,9 @@ export const foodAndDestinations = [
   id: 14,
   name: "Banh Khot",
   url: [
+    "https://daylambanh.edu.vn/wp-content/uploads/2019/12/banh-khot-mien-nam-hap-dan-600x400.jpg",
     "https://www.wokandkin.com/wp-content/uploads/2021/02/Banh-Khot-Close-Up-saved-for-web.png",
     "https://foodisafourletterword.com/wp-content/uploads/2020/12/Vietnamese_Crispy_Savory_Shrimp_Pancakes_Recipe_Banh_Khot_side.jpg",
-    "https://www.thefoodwonder.com/wp-content/uploads/2021/08/banh-khot-recipe.jpg"
   ],
   places: ["Vung Tau", "Ho Chi Minh City"]
 },

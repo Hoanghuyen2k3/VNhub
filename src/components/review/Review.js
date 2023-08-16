@@ -1,52 +1,74 @@
 import React from 'react'
 import { FaImage } from "react-icons/fa";
-
+import "./Review.scss"
 function Review({image, images,text, setText, setImage, setImages, setReview, review}) {
     const handleImages=(e)=>{
+        if(images.length>2){
+            return images
+        }
         setImages(images =>[...images, image])
     }
     const handleSubmit = (e)=>{
         e.preventDefault()
-        setReview({
+        setReview(review=>[{
             date: new Date(),
             text: text,
-            images: images,
+            images: [image,...images],
 
 
-        })
+        }, ...review])
+        setImages([])
+        setImage("")
     }
   return (
-    <div>
+    <div className="review-container">
          <form onSubmit={handleSubmit}>
-            <input type="text" onChange={(e)=>setText(e.target.value)} placeholder="Write your experiences..."/>
-            <label htmlFor='icon-button-file'><FaImage /></label>
-            <input  style={{ display: 'none' }} id="icon-button-file"
-        type="file" onChange={(e)=>{
-            const file = e.target.files[0];
-            file &&setImage(URL.createObjectURL(e.target.files[0]))}} />
-            {image && 
-            <>
-                <label htmlFor='icon-button-file' onClick={handleImages}>+</label>
-                <img src={image} />
-            </>}
-            {images.map((image, index) =>
-                <img src={image} />
+            <div className="form">
+                <textarea type="text" onChange={(e)=>setText(e.target.value)} placeholder="Write your experiences..."/>
+                <button type="submit">Submit</button>
+                    
+            </div>
+            <div className="preview-container">
+                <div className="input-preview">
+                   
+                    <input  style={{ display: 'none' }} id="icon-button-file"
+                type="file" onChange={(e)=>{
+                    const file = e.target.files[0];
+                    file &&setImage(URL.createObjectURL(e.target.files[0]))
+                    }} />
+                    {image ? 
+                    <>
+                        <label className="icon" htmlFor='icon-button-file' onClick={handleImages}>+</label>
+                        <img src={image} alt="img" />
+                    </> :  <label htmlFor='icon-button-file'><FaImage className="icon" /></label>}
 
-            )}
-            <button type="submit">Submit</button>
+                </div>
+             
+                <div className="preview">
+                    {images.map((image, index) =>
+                    <img src={image}  />
+
+                    )}
+
+                </div>
+               
+
+            </div>
+            
+            
         </form>
-        {review&&
-        <div>
+        {review? review.map((review, index) =>
+        <div className="your-review">
             <p>{review.text}</p>
-            <p>{review.date?.toLocaleString()}</p>
-            <div>
+            <p className="time">{review.date?.toLocaleString()}</p>
+            <div className="imgs">
                 {
                     review.images?.map(image=><img src={image} />)
                 }
             </div>
             
 
-        </div>}
+        </div>):<></>}
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { useParams } from 'react-router-dom'
 import { foodAndDestinations } from '../../data'
 import Review from '../review/Review';
+import "./EachFood.scss"
 function EachFood() {
   const params = useParams();
   console.log(params)
@@ -12,16 +13,21 @@ function EachFood() {
     const [images, setImages] = useState([])
     const [text, setText] = useState("");
 
-    const [review, setReview] = useState({})
+    const [review, setReview] = useState([])
   return (
-    <div>
+    <div className="each-food">
       <h1>{food.name}</h1>
-      <div>
+      <div className="img-container">
         {
-          food.url.map(f =><img src={f} alt="food-image" />)
+          food.url.map(f =><img src={f} alt="food" />)
         }
       </div>
-      <Review image={image} images={images} setText={setText} text={text} setImage={setImage} setImages={setImages} review={review} setReview={setReview} />
+      <div className="review">
+        <h3>Reviews</h3>
+        <Review image={image} images={images} setText={setText} text={text} setImage={setImage} setImages={setImages} review={review} setReview={setReview} />
+
+
+      </div>
 
     </div>
   )
