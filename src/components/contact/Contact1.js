@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import { FaArrowRight, FaMinus, FaPlus } from "react-icons/fa";
 import DatePicker from 'react-datepicker';
 import Counter from './Counter';
+import { useNavigate } from 'react-router-dom';
 import "./Contact1.scss"
 import 'react-datepicker/dist/react-datepicker.css'; // Import the default styles
 function Contact() {
+    const navigate = useNavigate();
     const [selectedDate, setSelectedDate] = useState(null); // State to hold the selected date
     const today = new Date();
     const maxDate = new Date();
@@ -21,7 +23,11 @@ function Contact() {
       8:false
     })
     const [text, setText]= useState("");
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0);
+    const handleNavigate=(e)=>{
+      e.preventDefault();
+      navigate("./2");
+    }
   return (
     <div className="contact1-container">
       
@@ -111,7 +117,7 @@ function Contact() {
       <div className="more-container">
         <textarea type="text" placeholder="E.g. Must-sees, must-dos, specific hotel to stay (if any), and anything else you'd like to share with us." />
 
-        <button>NEXT STEP <FaArrowRight /></button>
+        <button onClick={handleNavigate}>NEXT STEP <FaArrowRight /></button>
 
 
       </div>

@@ -1,24 +1,37 @@
 .contact-container {
     display: flex;
+    button {
+        background-color: transparent;
+        &:hover {
+            background-color: aliceblue;
+        }
+    }
     h3{
         font-weight: 600;
         color:rgb(202, 168, 81)
     }
     .contact-content{
+        padding: 20px;
         width: 70vw;
         // background-color: aliceblue;
         margin-left: 30px;
         margin-right: 25px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
        
     }
     .contact-location{
-        width: 25vw;
+        width: 22vw;
         margin-top: 100px;
         margin-right: 20px;
-        background-color: aliceblue;
+        margin-left: 30px;
+        background-color: rgb(246, 241, 146);
         max-height: 600px;
         padding-top: 20px;
         border-radius: 10px;
+        text-align: center;
+        h3{
+            color: black;
+        }
     }
 
    
@@ -31,16 +44,36 @@
         text-align: left;
     }
     font-size: clamp(13px, 2vw, 17px);
-    
+    .counter-container {
+            display: flex;
+            border: 1px solid rgb(224, 197, 87);
+            border-radius: 5px;
+            padding: 0px 10px;
+            .counter {
+                display: flex;
+                width: 50%;
+                justify-content: flex-end;
+                align-items: center;
+                // background-color: aqua;
+                margin-right: 0;
+            }
+            button {
+                height: 30px;
+                margin: 10px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+        
 }
 .road-trip {
-    width: 70vw;
+    width: 65vw;
     position: absolute;
     max-height: 250px;
     z-index: -10;
     margin: 0;
-    top: 230px;
-    opacity: 0.6;
+    top: 250px;
+    opacity: 0.5;
 }
 
 .where-container {
@@ -84,7 +117,11 @@
             width: 80vw;
         }
         .road-trip {
-            width: 80vw;
+            width: 70vw;
+        }
+        .contact-location{
+            margin-top: 20px;
+            width: 100%;
         }
     }
     

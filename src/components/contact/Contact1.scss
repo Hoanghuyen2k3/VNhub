@@ -42,23 +42,23 @@
 .date-container {
     display: flex;
     justify-content: space-between;
-    .counter-container {
-        display: flex;
-        .counter {
-            display: flex;
-            width: 50%;
-            justify-content: end;
-            align-items: center;
-            // background-color: aqua;
-            margin-right: 0;
-        }
-        button {
-            height: 30px;
-            margin: 10px;
-            border: none;
-            border-radius: 5px;
-        }
-    }
+    // .counter-container {
+    //     display: flex;
+    //     .counter {
+    //         display: flex;
+    //         width: 50%;
+    //         justify-content: end;
+    //         align-items: center;
+    //         // background-color: aqua;
+    //         margin-right: 0;
+    //     }
+    //     button {
+    //         height: 30px;
+    //         margin: 10px;
+    //         border: none;
+    //         border-radius: 5px;
+    //     }
+    // }
     
 }
 .choose-date{

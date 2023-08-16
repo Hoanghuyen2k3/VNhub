@@ -1,0 +1,112 @@
+.contact2-container {
+    .linkTo {
+        display: flex;
+        align-items: center;
+        a{
+            color: rgb(107, 106, 106);
+            width: 45%;
+        }
+        .next-button {
+            // position: absolute;
+            // left: 50%;
+            padding: 5px;
+            margin-top: 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(240, 208, 50);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-weight: 600;
+    
+        }
+
+    }
+    
+    .two{
+        background-color: rgb(240, 208, 50);
+    }
+    .budgets{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h4 {
+            font-weight: normal;
+        }
+    }
+    .budget-container{
+        border: 1px solid rgb(224, 197, 87);
+        border-radius: 10px;
+        width: 30vw;
+        height: 45px;
+        padding: 5px;
+    }
+    .budget{
+        padding: 10px 10px;
+        border: none;
+        margin-right: 0px;
+    }
+    .hotel-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .hotel {
+            padding: 15px 5px;
+            width: 15vw;
+            background-color: transparent;
+            border-radius: 10px;
+            border: 1px solid rgb(224, 197, 87);
+        }
+        .no1, .no2, .no3, .no4{
+            background-color: rgb(240, 208, 50);
+        }
+    }
+
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+    .counter-container {
+        width: 30vw;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+    .pass-container {
+        flex-direction: column;
+        .counter-container {
+            width: 70vw;
+            margin: 10px 0px;
+        }
+    }
+    .contact2-container{
+        .budgets{
+            flex-direction: column;
+            // justify-content: left;
+            // background-color: aqua;
+            // justify-items: left;
+            align-items:start;
+            // align-content: flex-start;
+            // justify-content: left;
+            // margin-right: 20px;
+        }
+        .budget-container{
+            width: 70vw;
+            // background-color: bisque;
+            // margin-right: 20px;
+        }
+        .hotel-container{
+            .hotel {
+                width: 25vw;
+                margin: 10px;
+            }
+        }
+        .next-button {
+            left: 45%;
+        }
+
+    }
+    
+    
+    
+}
