@@ -15,26 +15,40 @@ function Nav() {
         <div className="outlet">
             <Outlet />
         </div>
-        <div>
-          <h3>Resources</h3>
-          <a>Search Tour</a>
-          <a>Travel Deals & Promotions</a>
-          <a>Download Travel Brochures</a>
-          <a>Terms & Conditions</a>
-          <a>PaymentGuide</a>
-          <a>Book with Confidence</a>
-          <a>Travek with Confidence</a>
-        </div>
-        <div>
-          <h3>We're at your service</h3>
-          <a>+84 232132325</a>
-          <a>+84 1213131311</a>
-          <a>vnhub@vietnamtours.com</a>
+        <div className="footer">
+          <div className="resources-container">
+            <h3>Resources</h3>
+            <div className="link">
+              <a href=".">Search Tour</a>
+              <a href=".">Travel Deals & Promotions</a>
+              <a href=".">Download Travel Brochures</a>
+              <a href=".">Terms & Conditions</a>
+              <a href=".">PaymentGuide</a>
+              <a href=".">Book with Confidence</a>
+              <a href=".">Travek with Confidence</a>
 
-        </div>
-        <div>
+            </div>
+           
+          </div>
+          <div className="contact-footer">
+            <h3>We're at your service</h3>
+            <div className="contact">
+              <p>+84 232132325</p>
+              <p>+84 1213131311</p>
+              <p>vnhub@vietnamtours.com</p>
+
+            </div>
+           
+
+          </div>
+         
           
         </div>
+        <div className="foot">
+            Copyright &copy; 2023 VNhub. All rights reserved.
+            
+        </div>
+        
         
 
     </div>

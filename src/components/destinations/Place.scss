@@ -4,6 +4,9 @@
     margin-top: 150px;
     display: flex;
     justify-content: center;
+    width: 95vw;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     ul {
         list-style: none;
       }
@@ -43,6 +46,9 @@
     // background-color: aliceblue;
     width: 80%;
     max-width: 800px;
+    h2 {
+        color:rgb(202, 168, 81)
+    }
     
     img {
         width: 90%;

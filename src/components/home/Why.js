@@ -37,12 +37,12 @@ const Card = ({ why, reason }) => {
     return (
       <VerticalTimelineElement
         contentStyle={{
-          background: "#1d1836",
+          background: "rgb(255, 230, 0)",
           color: "#fff",
           width: "80%",
           maxWidth: "500px"
         }}
-        contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(255, 230, 0)" }}
         className="why-timeline"
         // iconStyle={{ background: experience.iconBg }}
       icon={
