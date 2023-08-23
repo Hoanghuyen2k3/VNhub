@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VNhub/static/css/main.84bbd12f.css",
-    "main.js": "/VNhub/static/js/main.a1571401.js",
+    "main.js": "/VNhub/static/js/main.e237c381.js",
     "static/js/787.b872041a.chunk.js": "/VNhub/static/js/787.b872041a.chunk.js",
     "index.html": "/VNhub/index.html",
     "main.84bbd12f.css.map": "/VNhub/static/css/main.84bbd12f.css.map",
-    "main.a1571401.js.map": "/VNhub/static/js/main.a1571401.js.map",
+    "main.e237c381.js.map": "/VNhub/static/js/main.e237c381.js.map",
     "787.b872041a.chunk.js.map": "/VNhub/static/js/787.b872041a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84bbd12f.css",
-    "static/js/main.a1571401.js"
+    "static/js/main.e237c381.js"
   ]
 }
