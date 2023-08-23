@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './components/home/Home';
 import './App.css';
 import EachFood from './components/food/EachFood';
+import WorldDestination from './components/world/WorldDestination';
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -17,10 +18,11 @@ import Contact from './components/contact/Contact';
 import Contact2 from './components/contact/Contact2';
 import Contact3 from './components/contact/Contact3';
 import Contact1 from './components/contact/Contact1';
+import WorldPlace from './components/world/WorlPlace';
 function App() {
   const router = createBrowserRouter(createRoutesFromElements(
     
-    <Route  path="/" element={<Nav />}>      
+    <Route  path="/VNhub" element={<Nav />}>      
       <Route index element={<Home />} />
       <Route path="home" element={<Home />} />
       <Route path="festival" element={<Festival />} />
@@ -36,6 +38,8 @@ function App() {
       <Route path="attractions" element={<Attractions />} />
       <Route path="attractions/:id" element={<Place />} /> 
       <Route path="foods/:id" element={<EachFood />} /> 
+      <Route path="city" element={<WorldDestination />} />
+      <Route path="city/:xid" element={<WorldPlace />} /> 
 
 
       
