@@ -1,8 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios';
 import Card from './Card';
+import Weather from './Weather';
+import "./WorldDestination.scss"
 function WorldDestination() {
-    const [city, setCity] = useState({});
+    const [city, setCity] = useState("");
     const [places, setPlaces] = useState([])
     const [placeName, setPlaceName] = useState("");
 
@@ -17,12 +19,12 @@ function WorldDestination() {
 
     const handleSubmit = async(e)=>{
         e.preventDefault();
+        setCity(placeName)
         try {
             const response = await axios.get(
                 url
             );
             console.log(response)
-            setCity(response.data)
             const lon= response.data.lon
             const lat= response.data.lat
 
@@ -45,10 +47,11 @@ function WorldDestination() {
     
 
   return (
-    <div>
+    <div className="world-container">
         <input type="text" onChange={(e)=>setPlaceName(e.target.value)} placeName="Enter city ..." />
         <button type="submit" onClick={handleSubmit} >Submit</button>
-        <div>
+        <Weather c={city} />
+        <div className="places-container">
             {
                 places? places.map(place=> <Card place ={place} /> ):<></>
             }

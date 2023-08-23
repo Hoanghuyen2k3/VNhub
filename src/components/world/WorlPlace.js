@@ -1,7 +1,8 @@
-import React, {useEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios';
 function WorldPlace() {
+    const [place,setPlace] =useState({})
     const params = useParams();
     console.log(params)
 
@@ -21,6 +22,8 @@ function WorldPlace() {
                 detailUrl
             );
             console.log(response)
+            
+            setPlace(response.data)
     
             
           } catch (error) {
@@ -30,13 +33,31 @@ function WorldPlace() {
     
         fetchData();
       }, []);
+      useEffect(() => {
+        console.log(place)
+      }, [place]);
 
 
 
   
 
   return (
-    <div>Place</div>
+    place &&
+    <div>
+      <h2>{place.name}</h2>
+      <p>{place.kinds}</p>
+
+      {place?.preview?.source&&<img src={place.preview.source} alt={place.name} />}
+      {place?.address&&<p>Address: {Object.entries(place.address)
+          .map(([key, value]) => `${key}: ${value}`)
+          .join(', ')}</p>}
+      {place?.rate&&<p>Rating: {place.rate}</p>}
+      {place?.url&&<p>Website: <a href={place.url} target="_blank" rel="noopener noreferrer">{place.url}</a></p>}
+      {place?.wikipedia&&<p>Wikipedia: <a href={place.wikipedia} target="_blank" rel="noopener noreferrer">{place.wikipedia}</a></p>}
+      {place?.wikipedia_extracts?.text&&<p>{place.wikipedia_extracts.text}</p>}
+      
+      
+    </div>
   )
 }
 

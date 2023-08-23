@@ -8,9 +8,9 @@ function Card({place}) {
         navigate(place.properties.xid)
     }
   return (
-    <div onClick={handleClick}>
-        <h3>{place.properties.name}</h3>
-        <p>{place.properties.kinds}</p>
+    <div className="card" onClick={handleClick}>
+        <h4>{place.properties.name}</h4>
+        <p><span className="bold">Category: </span>{place.properties.kinds.split(",").join(", ")}</p>
 
     </div>
   )

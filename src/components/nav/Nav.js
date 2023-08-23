@@ -9,6 +9,8 @@ function Nav() {
             <NavLink to="home" activeClassName="active-link">VNhub</NavLink>
             <NavLink to="attractions" activeClassName="active-link">Attractions</NavLink>
             <NavLink to="foods" activeClassName="active-link">Vietnamese Cuisine</NavLink>
+            <NavLink to="city" activeClassName="active-link">Explore World</NavLink>
+
             <NavLink to="contact" activeClassName="active-link">Contact Us</NavLink>
 
         </div>

@@ -1,0 +1,61 @@
+.world-container {
+    font-size: clamp(12px, 2vw, 18px);
+    margin-top: 120px;
+    input {
+        padding: 10px;
+        width: 70%;
+        max-width: 300px;
+        font-size: clamp(12px, 2vw, 18px);
+        margin-right: 10px;
+        margin-bottom: 40px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    button {
+        padding: 10px;
+        font-weight: 600;
+        border: none;
+        background-color: rgb(241, 206, 6);
+        border-radius: 5px;
+        font-size: clamp(12px, 2vw, 18px);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .places-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 50px auto;
+        justify-content: space-between;
+        
+        .card {
+            width: 30%;
+            margin: 20px 5px;
+            font-size: clamp(12px, 1.5vw, 16px);
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            p {
+                word-break: break-word;
+                text-align: left;
+            }
+            
+            &:hover {
+                scale: 1.05;
+
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) {
+    .world-container{
+        .places-container{
+            .card {
+                width: 45%;
+            }
+        }
+    }
+}

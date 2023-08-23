@@ -3,7 +3,6 @@ import axios from 'axios'
 function OpenTripMapDemo() {
     const apiKey = '5ae2e3f221c38a28845f05b6defb8d26c271159c861f61b9ba77a581';
     const lang = 'en';
-    const bbox = 'left,bottom,right,top'; // Replace with your bounding box coordinates
     const city = 'Paris';
     const xid="R11801445"
     const placeName = 'New York';
