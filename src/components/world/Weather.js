@@ -99,7 +99,7 @@ const Weather = ({c}) => {
                
             </>
         ) : (
-            <p>Loading...</p>
+            <p className="bold center-text">No Results ...</p>
         )}
 
         </div>
@@ -117,7 +117,7 @@ const Weather = ({c}) => {
                     </div>
                     ))
                 ) : (
-                    <p>Loading...</p>
+                    <p className="bold center-text">No Results...</p>
                 )}
             </div>
             

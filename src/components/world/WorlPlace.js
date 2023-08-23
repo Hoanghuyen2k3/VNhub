@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios';
+import "./WorldPlace.scss"
 function WorldPlace() {
     const [place,setPlace] =useState({})
     const params = useParams();
@@ -43,18 +44,27 @@ function WorldPlace() {
 
   return (
     place &&
-    <div>
-      <h2>{place.name}</h2>
-      <p>{place.kinds}</p>
+    <div className="world-place">
+      <h1>{place.name}</h1>
 
-      {place?.preview?.source&&<img src={place.preview.source} alt={place.name} />}
-      {place?.address&&<p>Address: {Object.entries(place.address)
-          .map(([key, value]) => `${key}: ${value}`)
-          .join(', ')}</p>}
-      {place?.rate&&<p>Rating: {place.rate}</p>}
-      {place?.url&&<p>Website: <a href={place.url} target="_blank" rel="noopener noreferrer">{place.url}</a></p>}
-      {place?.wikipedia&&<p>Wikipedia: <a href={place.wikipedia} target="_blank" rel="noopener noreferrer">{place.wikipedia}</a></p>}
-      {place?.wikipedia_extracts?.text&&<p>{place.wikipedia_extracts.text}</p>}
+      {place?.preview?.source&&<img className="img" src={place.preview.source} alt={place.name} />}
+      <div className="info">
+        {place?.kinds&&<p><span className="bold">Category: </span>{place.kinds.split(",").join(", ")}</p>}
+        <span className='bold'>Address:</span>
+        <div className="address">
+          {place?.address&&<pre>{Object.entries(place.address)
+              .map(([key, value]) => `${key}: ${value}`)
+              .join('\n')}</pre>}
+
+        </div>
+       
+        {place?.rate&&<p><span className='bold'>Rating:</span> {place.rate}</p>}
+        {place?.url&&<p><span className='bold'>Website:</span> <a href={place.url} target="_blank" rel="noopener noreferrer">{place.url}</a></p>}
+        {place?.wikipedia&&<p><span className='bold'>Wikipedia:</span> <a href={place.wikipedia} target="_blank" rel="noopener noreferrer">{place.wikipedia}</a></p>}
+        {place?.wikipedia_extracts?.text&&<p>{place.wikipedia_extracts.text}</p>}
+
+
+      </div>
       
       
     </div>

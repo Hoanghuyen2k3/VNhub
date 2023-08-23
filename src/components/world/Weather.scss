@@ -8,6 +8,9 @@
     margin: 20px auto;
     padding: 20px 0px;
     background: url("https://t4.ftcdn.net/jpg/03/00/94/69/360_F_300946931_kSR84OqudEhsmBZH47HU6ud7aZIDMjEx.jpg");
+    .center-text {
+        text-align: center;
+    }
     
     
 }
@@ -39,10 +42,12 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
+    
     .forecast {
         background-color: rgba(238, 244, 244, 0.4);
         margin: 5px;
         padding: 10px 15px;
+        
     }
 }
 @media only screen and (max-width:1000px){

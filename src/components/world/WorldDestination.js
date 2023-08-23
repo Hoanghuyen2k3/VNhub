@@ -48,7 +48,7 @@ function WorldDestination() {
 
   return (
     <div className="world-container">
-        <input type="text" onChange={(e)=>setPlaceName(e.target.value)} placeName="Enter city ..." />
+        <input type="text" onChange={(e)=>setPlaceName(e.target.value)} placeholder="Enter city ..." />
         <button type="submit" onClick={handleSubmit} >Submit</button>
         <Weather c={city} />
         <div className="places-container">

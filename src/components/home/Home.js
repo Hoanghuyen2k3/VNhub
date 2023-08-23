@@ -15,7 +15,7 @@ function Home() {
   const festivals=["https://danangxanh.vn/data/images/festival-hue%281%29.jpg", "https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2023/2/4/1144189/Den-Long.jpg", "https://static.vinwonders.com/2023/01/cac-le-hoi-o-viet-nam-1.jpg", "https://dichungtaxi.com/blog/wp-content/uploads/2016/03/02c2b1ec85f9862f27b4c89ea20dd926.jpg", "https://toquoc.mediacdn.vn/Uploaded/anhcinet/2018_07_05/nhat_BPJZ.jpg"]
   const foods=["https://cafebiz.cafebizcdn.vn/162123310254002176/2023/6/16/a-production-webs3amazonawscom2fbrightspot2f082f652fccfbc191437fb8f616aaadf84c132fshutterstock-2144279725-16868161084101499888520-1686884259615-1686884260082199846633.jpg", "https://media.cooky.vn/recipe/g3/26101/s/recipe26101-cook-step5-636875695270855127.JPG", "https://images2.thanhnien.vn/528068263637045248/2023/5/22/bun-bo-nam-bo-16847360191061617508934.jpeg"]
   const combine = [...places, ...festivals, ...foods,...festivals, ...foods, ...places, ...places, ...festivals]
-  const quoteText = "Your Gateway to Experiencing Vietnam's Vibrant Culture and Delights!";
+  const quoteText = "Your Gateway to Experiencing World & Vietnam's Vibrant Culture and Delights!";
   const words = quoteText.split(' ');
   const slideImg =
     combine.map((c, index)=>
@@ -68,7 +68,7 @@ function Home() {
         </p>
         <div className="calling-container">
           <button className="bold toContact" onClick={()=>navigate("../contact")}>Book Your Adventure Today!</button>
-          <p className="calling">Let VNhub be your passport to the heart and soul of Vietnam. Whether you're an adventurous explorer, a culture enthusiast, or a culinary connoisseur, there's a world of experiences waiting for you. Begin your journey with VNhub today and unlock the secrets of Vietnam's festivals, food, and fascinating destinations.</p>
+          <p className="calling">Let VNhub be your passport to the heart and soul of Vietnam or the world. Whether you're an adventurous explorer, a culture enthusiast, or a culinary connoisseur, there's a world of experiences waiting for you. Begin your journey with VNhub today and unlock the secrets of festivals, food, and fascinating destinations.</p>
 
         </div>
         
@@ -123,7 +123,7 @@ function Home() {
 
           
           </div>
-          <p>Your Adventure Awaits. Your Memories Begin. Explore Vietnam with VNhub.</p>
+          <p>Your Adventure Awaits. Your Memories Begin. Explore with VNhub.</p>
           <button className="bold toContact" onClick={()=>navigate("../contact")}>Book Your Adventure Today!</button>
 
           <h2 className="why-why section">🌟WHAT OUR CLIENTS SAY</h2>

@@ -5,6 +5,7 @@ import "./Place.scss"
 import Review from '../review/Review'
 import { foodAndDestinations } from '../../data'
 import { FaLocationArrow } from "react-icons/fa";
+import Weather from '../world/Weather'
 function Place() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -33,6 +34,8 @@ function Place() {
     }, [place.url.length]);
   return (
     <div className="place">
+        <Weather c={place.name} />
+
         
         <div className="place-nav">
             <a href="#description" >Description <FaLocationArrow  className="icon"/></a>
@@ -42,6 +45,7 @@ function Place() {
             <a href="#review">Reviews <FaLocationArrow  className="icon"/></a>
         </div>
         <div className="place-info">
+
         <div className="img">
             {place.url.map((url, index) => (
                 <img
@@ -52,7 +56,6 @@ function Place() {
                 />
             ))}
         </div>
-            <h1>{place.name}</h1>
 
             <h2 id="description">Description</h2>
             <p>{place.description}</p>

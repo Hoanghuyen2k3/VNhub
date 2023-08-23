@@ -1,0 +1,23 @@
+.world-place {
+    font-size: clamp(12px, 2.5vw, 16px);
+    a {
+        text-decoration: none;
+        color: rgb(79, 79, 81);
+    }
+    .info {
+        text-align: left;
+        width: 90%;
+        margin: 10px auto;
+        max-width: 700px;
+        .address {
+            margin-left: 20px;
+        }
+    }
+    .img {
+        width: 90%;
+        max-width: 500px;
+        margin: 20px auto;
+    }
+    
+
+}
