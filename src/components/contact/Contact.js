@@ -1,10 +1,14 @@
 import React, {useState} from 'react'
 import { Outlet } from 'react-router-dom'
 import "./Contact.scss"
+import Auth from '../auth/Auth';
+import ChatBox from '../chatbox/ChatBox';
 import { FaPhoneFlip, FaLocationDot } from "react-icons/fa6";
 function Contact() {
   return (
     <div className="contact-container">
+      {/* <Auth /> */}
+      {/* <ChatBox /> */}
       <div className="contact-content">
         <img className="road-trip" src="https://media.nomadicmatt.com/vietnamguide.jpg" alt="road-trip" />
         <p className="about">Tell us about your upcoming trip — the sights you want to see, the type of accommodation you prefer, the occasion to celebrate, and even the unusual but fascinating activity you'd like to try. We will match you with a local expert who knows your destination inside out and will work with you until you are completely satisfied.</p>

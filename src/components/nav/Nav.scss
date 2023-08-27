@@ -80,6 +80,29 @@
     padding: 15px 0;
 
 }
+// .chatbox {
+//     position: fixed;
+//     bottom: 0%;
+//     right: 2%;
+// }
+
+.chat {
+    background-color: aliceblue;
+    .ai-img-container {
+
+    }
+    .ai-img {
+        width: 70px;
+        // height: 70px;
+        position: fixed;
+        top: 60%;
+        right: 2%;
+        // height: 100px;
+        border-radius: 50%;
+        // border-radius: 20% 60%  60% 10%;
+        // filter: hue-rotate(90deg);
+    }
+}
 @media only screen and (max-width: 800px){
     .resources-container{
         .link {

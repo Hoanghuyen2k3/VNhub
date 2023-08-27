@@ -1,7 +1,19 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import {NavLink, Outlet} from 'react-router-dom'
 import "./Nav.scss"
+import ChatBox from '../chatbox/ChatBox'
+import { useDispatch, useSelector } from 'react-redux';
+import { selectShow, showChat } from '../../features/chatSlice';
 function Nav() {
+  const [show, setShow] = useState(false);
+  useEffect(() =>console.log(show), [show])
+
+  const handleChat =(e)=>{
+    e.preventDefault();
+    setShow(show =>!show);
+    console.log(show)
+
+  }
   return (
     <div>
         <div className="main-nav">
@@ -17,6 +29,17 @@ function Nav() {
         <div className="outlet">
             <Outlet />
         </div>
+          {
+            show ? <div className="chatbox"><ChatBox /></div>:(
+              <div className="ai-img-container" onClick={handleChat}>
+                <img className="ai-img" src="https://play-lh.googleusercontent.com/Oe0NgYQ63TGGEr7ViA2fGA-yAB7w2zhMofDBR3opTGVvsCFibD8pecWUjHBF_VnVKNdJ=w240-h480-rw" alt="AI-chatbox" />
+
+              </div>
+
+            )
+          }
+          
+
         <div className="footer">
           <div className="resources-container">
             <h3>Resources</h3>
