@@ -67,7 +67,7 @@ function Home() {
             ))}
         </p>
         <div className="calling-container">
-          <button className="bold toContact" onClick={()=>navigate("../contact")}>Book Your Adventure Today!</button>
+          <button className="bold toContact" onClick={()=>navigate("/VNhub/contact")}>Book Your Adventure Today!</button>
           <p className="calling">Let VNhub be your passport to the heart and soul of Vietnam or the world. Whether you're an adventurous explorer, a culture enthusiast, or a culinary connoisseur, there's a world of experiences waiting for you. Begin your journey with VNhub today and unlock the secrets of festivals, food, and fascinating destinations.</p>
 
         </div>
@@ -124,7 +124,7 @@ function Home() {
           
           </div>
           <p>Your Adventure Awaits. Your Memories Begin. Explore with VNhub.</p>
-          <button className="bold toContact" onClick={()=>navigate("../contact")}>Book Your Adventure Today!</button>
+          <button className="bold toContact" onClick={()=>navigate("/VNhub/contact")}>Book Your Adventure Today!</button>
 
           <h2 className="why-why section">🌟WHAT OUR CLIENTS SAY</h2>
           <Clients />
