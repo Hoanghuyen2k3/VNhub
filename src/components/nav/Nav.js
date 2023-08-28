@@ -2,9 +2,15 @@ import React, {useState, useEffect} from 'react'
 import {NavLink, Outlet} from 'react-router-dom'
 import "./Nav.scss"
 import ChatBox from '../chatbox/ChatBox'
-import { useDispatch, useSelector } from 'react-redux';
-import { selectShow, showChat } from '../../features/chatSlice';
 function Nav() {
+
+  const [messages, setMessages] = useState([]);
+  const [inputText, setInputText] = useState('');
+  const [loading, setLoading] = useState(false); // Track loading state
+
+
+
+
   const [show, setShow] = useState(false);
   useEffect(() =>console.log(show), [show])
 
@@ -30,7 +36,15 @@ function Nav() {
             <Outlet />
         </div>
           {
-            show ? <div className="chatbox"><ChatBox /></div>:(
+            show ? <div className="chatbox">
+              <ChatBox 
+                messages={messages} 
+                setMessages={setMessages}
+                loading={loading}
+                setLoading={setLoading}
+                inputText={inputText}
+                setInputText={setInputText} 
+                setShow={setShow}/></div>:(
               <div className="ai-img-container" onClick={handleChat}>
                 <img className="ai-img" src="https://play-lh.googleusercontent.com/Oe0NgYQ63TGGEr7ViA2fGA-yAB7w2zhMofDBR3opTGVvsCFibD8pecWUjHBF_VnVKNdJ=w240-h480-rw" alt="AI-chatbox" />
 

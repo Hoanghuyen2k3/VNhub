@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import './ChatBox.scss';
 import axios from 'axios';
 import { AiOutlineSend } from "react-icons/ai";
-const ChatBox = () => {
-  const [messages, setMessages] = useState([]);
-  const [inputText, setInputText] = useState('');
-  const [loading, setLoading] = useState(false); // Track loading state
+import { BsArrowDownRight, BsXLg } from "react-icons/bs";
 
+
+const ChatBox = ({messages, setMessages, inputText, setInputText, loading, setLoading, setShow}) => {
   const handleInputChange = event => {
     setInputText(event.target.value);
   };
@@ -45,6 +44,20 @@ const ChatBox = () => {
 
   return (
     <div className="chat-container">
+      <div className="chat-nav">
+        <div onClick={(e)=>{
+          e.preventDefault();
+          setShow(false);
+
+        }}><BsArrowDownRight className="icon"/></div>
+        <div
+          onClick={(e)=>{
+            e.preventDefault();
+            setShow(false);
+            setMessages([])
+          }}
+        ><BsXLg className="icon"/></div> 
+      </div>
       <div className="chat-messages">
         {messages.map((message, index) => (
           <div

@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    // background-color: rgb(233, 243, 205);
     
 }
 .main-nav {
@@ -9,7 +8,7 @@
         font-weight: 600;
         font-size: clamp(13px, 2vw, 20px);
         color: rgb(0, 0, 0);
-        border-radius: 5px;    // border-right: 10px solid transparent;
+        border-radius: 5px;    
 
         margin:3%;
         &:active{
@@ -43,7 +42,6 @@
     justify-content: center;
     margin-top: 50px;
     padding: 20px;
-    // color: rgb(86, 86, 84);
 
 }
 .contact-footer {
@@ -69,7 +67,6 @@
             text-decoration: none;
             margin: 15px;
             color:black;
-            // color: rgb(86, 86, 84);
         }
     }
 
@@ -80,29 +77,16 @@
     padding: 15px 0;
 
 }
-// .chatbox {
-//     position: fixed;
-//     bottom: 0%;
-//     right: 2%;
-// }
-
-.chat {
-    background-color: aliceblue;
-    .ai-img-container {
-
-    }
-    .ai-img {
-        width: 70px;
-        // height: 70px;
-        position: fixed;
-        top: 60%;
-        right: 2%;
-        // height: 100px;
-        border-radius: 50%;
-        // border-radius: 20% 60%  60% 10%;
-        // filter: hue-rotate(90deg);
-    }
+.ai-img {
+    width: 80px;
+    position: fixed;
+    top: 60%;
+    right: 1%;
+    border-radius: 50%;
+    cursor: pointer;
+  
 }
+
 @media only screen and (max-width: 800px){
     .resources-container{
         .link {
