@@ -114,6 +114,60 @@ function Home() {
 
           </Tilt>         
           </div>
+          <h2 className="why-why section">🌟EXPLORE WORLD</h2>
+          <div className="home-body">
+            <Tilt className="body">
+              <div>
+                <h2>Utilizing Travel API data</h2>
+                <ul>
+                  <li>Integration with reliable travel APIs to access up-to-date information</li>
+                  <li>Gathering details about destinations, landmarks, and activities</li>
+                  <li>Ensuring accurate and comprehensive data for users</li>
+                </ul>
+
+              </div>
+            </Tilt>
+            <Tilt className="body">
+              <div>
+                <h2>Recommending attractions in each city</h2>
+                <ul>
+                  <li>Analyzing API data to identify top-rated attractions</li>
+                  <li>Considering user preferences and historical data for relevance</li>
+                  <li>Providing diverse options such as landmarks, museums, parks, and more</li>
+                </ul>
+              </div>
+            </Tilt>
+            {/* <Tilt className="body">
+              <div>
+                <h2>Personalized suggestions</h2>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </Tilt> */}
+            <Tilt className="body">
+              <div>
+                <h2>Weather Section:</h2>
+                <ul>
+                  <li>Current Conditions: Get up-to-the-minute weather details for your chosen city.</li>
+                  <li>5-Day Forecast: Plan ahead with a comprehensive forecast spanning the next five days.
+</li>
+                  <li>Precipitation & Temperature: Stay informed about rain, snow, or sunshine, along with temperature trends.
+</li>
+                  <li>Weather API: Powered by reliable weather data to ensure accuracy and timely information.
+</li>
+
+                </ul>
+
+              </div>
+            </Tilt>
+
+          </div>
+
+
+
           
           
           

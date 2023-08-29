@@ -23,6 +23,11 @@ const whys =[
 
     }, 
     {
+        why: "AI chatbox",
+        reason: "Craft your journey with the help of AI support and intelligent guidance, enhancing efficiency, accessibility, and personalized interactions."
+
+    },
+    {
         why:  "Expert Guides", 
         reason:"Our knowledgeable guides are passionate storytellers, adding depth to every place you visit.",
 
