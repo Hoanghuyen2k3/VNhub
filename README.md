@@ -32,7 +32,7 @@ Plan your own adventure with the help of our AI-powered chatbot. Simply type you
 
 VNhub is built using cutting-edge technologies to ensure a seamless and user-friendly experience:
 
-- **Frontend:** Utilizing ReactJS, CSS, SCSS, and JavaScript to create an engaging and visually appealing interface.
+- **Frontend:** Utilizing ReactJS, CSS, SCSS, HTML and JavaScript to create an engaging and visually appealing interface.
 
 - **Backend:** Powered by NodeJS, our server efficiently connects to various APIs to retrieve and display the necessary data.
 
@@ -55,10 +55,3 @@ We welcome contributions from the community! If you'd like to improve VNhub or a
 
 Got questions, feedback, or need assistance? Visit our Contact Us page to get in touch with our team of travel experts. We're here to help you create the perfect journey.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Start your journey with VNhub today and immerse yourself in the captivating allure of Vietnam's attractions and cuisine. Happy exploring! 🌍🥢🏞️
